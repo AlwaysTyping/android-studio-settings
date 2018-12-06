@@ -1,0 +1,51 @@
+<templateSet group="cym">
+  <template name="pbb" value="        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="phh" value="        app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;        app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="pll" value="        app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ppp" value="        app:layout_constraintLeft_toLeftOf=&quot;parent&quot;&#10;        app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;        app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="prr" value="        app:layout_constraintRight_toRightOf=&quot;parent&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="ptt" value="        app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="pvv" value="        app:layout_constraintTop_toTopOf=&quot;parent&quot;&#10;        app:layout_constraintBottom_toBottomOf=&quot;parent&quot;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="sbs" value="subscribeOn(ioThread)&#10;.observeOn(mainThread)&#10;.subscribe({&#10;    if (it.isSuccess()) {&#10;        it.debugToast()&#10;    } else {&#10;        it.status.msg.toast()&#10;    }&#10;}, {&#10;    it.debugToast()&#10;})" description="subscibeOn() observeOn() subscribe()" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+      <option name="KOTLIN_CLASS" value="false" />
+      <option name="KOTLIN_COMMENT" value="false" />
+      <option name="KOTLIN_TOPLEVEL" value="false" />
+    </context>
+  </template>
+  <template name="sf" value="requestPermission(this, mutableListOf()) { success, failed -&gt;&#10;        success {&#10;&#10;}&#10;    failed {}&#10;}" description="success ,falied callback" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>
